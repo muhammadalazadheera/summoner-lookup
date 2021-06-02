@@ -12,7 +12,7 @@
 * Authentication system
 * Dynamically update information
 
-## Working Demo Url: [http://summonerlookup.epizy.com/](url){:target="_blank"}
+## Working Demo Url: [Hello, world!](http://summonerlookup.epizy.com/){target="_blank"}
 (The api key is a developer api key which has a validity of 24 hours. The api key may be expired when you are visiting the site.)
 
 
