@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@900&family=Italiana&family=Stint+Ultra+Condensed&display=swap');
+
+.cinzel{
+    font-family: 'Cinzel', serif;
+}
+.italiana{
+    font-family: 'Italiana', serif;
+}
+.stint{
+    font-family: 'Stint Ultra Condensed', cursive;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active
+{
+    -webkit-box-shadow: 0 0 0 30px var(--secondary-color) inset !important;
+    -webkit-text-fill-color: var(--text-color) !important;
+}
+
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right center;
+    height: 100vh;
+}
+
+.sidebar{
+    width: 100%;
+    height: 100vh;
+    display: block;
+    background-color: var(--primary-color);
+}
+
+.player-info{
+    width: 100%;
+    height: 100vh;
+    display: block;
+    background-color: var(--primary-color);
+}
+
+.summoner-details{
+    width: 90%;
+    margin: 0 auto 0 auto;
+    padding-top: 30px;
+}
+
+.summoner-btn{
+    width: 100%;
+    margin-top: 10px;
+    background: var(--secondary-color);
+}
+
+.summoner-details .form-control{
+    background: var(--secondary-color);
+    border: .05px solid #17a2b8;
+    color: #fff;
+}
+
+.summoner-region{
+    border: .05px solid #17a2b8;
+}
+
+.riot-logo{
+    position: absolute;
+    bottom: 0;
+}
+
+.riot-logo img{
+    width: 65%;
+    display: block;
+    margin: 0 auto;
+}
+
+.player-info{
+  padding-top: 30px;
+}
+
+.player-banner{
+    width: 90%;
+    min-height: 125px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
+    background: var(--secondary-color);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0.5px solid #17a2b8;
+}
+
+.player-profile-picture{
+  margin-left: 20px;
+}
+
+.player-name{
+  margin-left: 15px;
+  text-align: center;
+    text-transform: uppercase;
+  color: #fff;
+}
+
+.player-name h1{
+    color: transparent !important;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+}
+
+.player-stat{
+  display: flex;
+  justify-content: space-between;
+
+  width: 90%;
+  margin: 25px auto 0 auto;
+}
+
+.stat-box{
+  width: 48%;
+  height: 350px;
+  background: var(--secondary-color);
+  border: .05px solid rgb(66, 51, 51);
+
+  padding: 10px;
+}
+
+.tier-name{
+  text-align: center;
+  color: #fff;
+}
+
+.tier-img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tier-img img{
+  width: 80%;
+}
+
+.stat-text{
+  display: flex;
+  align-items: center;
+  color: #fff;
+  padding: 20px;
+}
+
+.stat-text ul{
+  width: 100%;
+}
+
+.stat-text h5{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.stat-text ul li{
+  list-style: none;
+}
+
+.percentage-box{
+  width: 90%;
+  max-height: 155px;
+  height: 155px;
+  margin: 25px auto 0 auto;
+
+  background: var(--secondary-color);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.percircle {
+  margin: 0 0 0 0;
+}
+
+.p-box{
+  text-align: center;
+  color: #fff;
+  margin: 0px 10px;
+}
+
+.percircle>span {
+  color: #9e5151;
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: var(--primary-color);
+    z-index: 999999;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay img{
+    animation: zoom 3s infinite;
+}
+
+@keyframes zoom {
+    0%{
+        transform: scale(1,1);
+    }
+    50%{
+        transform: scale(1.2,1.2);
+    }
+    100%{
+        transform: scale(1,1);
+    }
+}
+
+.css-mode-switch{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.css-mode-switch ul li{
+    list-style: none;
+}
+
+.css-mode-switch a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.css-mode-switch a:hover{
+    text-decoration: none;
+}
+
+.css-mode-active{
+    color: #14f314 !important;
+    text-decoration: underline !important;
+}
+
+#expire-message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #00ff6b;
+
+    height: 100vh;
+}
+
+.expire-message-box{
+    padding: 30px 20px;
+    background: rgba(0, 0, 0, .7);
+}

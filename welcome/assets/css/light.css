@@ -1,0 +1,18 @@
+:root{
+    --primary-color: #a0a0a0;
+    --secondary-color: #e7e5df;
+    --text-color: #000000;
+}
+
+*{
+    color: #0b2e13 !important;
+}
+
+body{
+    background-image: url("../img/light.jpg");
+}
+
+.player-name h1{
+    background: #133B5C;
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
+}

@@ -1,0 +1,14 @@
+:root{
+    --primary-color: #1d2d50;
+    --secondary-color: #133b5c;
+    --text-color: #fff;
+}
+
+body{
+    background-image: url("../img/dark.jpg");
+}
+
+.player-name h1{
+    background: #000000;
+    text-shadow: 0px 3px 3px rgb(85 38 160 / 50%);
+}
